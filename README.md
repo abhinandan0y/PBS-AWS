@@ -108,7 +108,10 @@ python3 program.py
 Free Tier Limits: Ensure you stay within the free tier limits. For EC2, the free tier includes 750 hours of t2.micro or t3.micro instance usage per month.
 Billing Dashboard: Go to the AWS Billing Dashboard to monitor your usage and costs.
 Set Up Alerts: Set up billing alerts to notify you if your usage exceeds the free tier limits.
-Step 8: Clean Up Resources
+```
+
+#### Step 8: Clean Up Resources
+```
 Terminate Instance: When you’re done, terminate your EC2 instance to avoid unnecessary charges.
 Delete Resources: Delete any other resources you created, such as security groups or key pairs.
 ```
