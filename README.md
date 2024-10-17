@@ -24,8 +24,11 @@ Log In: Go to the AWS Management Console and log in with your credentials.
 IAM Setup: Create an IAM user with appropriate permissions for better security. Go to the IAM service and create a new user with programmatic access.
 ```
  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-16.png?token=GHSAT0AAAAAACXY7ZKGWN2MXFFY4IHOZBFOZYRPFSA" style="width: 100%;" alt="bioinformatics_lab.png">
+ 
   <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-29-53.png?token=GHSAT0AAAAAACXY7ZKHFHILYOEMDZGGTOL4ZYRPPUQ" style="width: 100%;" alt="bioinformatics_lab.png">
-    <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-30-16.png?token=GHSAT0AAAAAACXY7ZKGJBNJ74NOBF3NJT2YZYRPQXQ" style="width: 100%;" alt="bioinformatics_lab.png">
+  
+  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-30-16.png?token=GHSAT0AAAAAACXY7ZKGJBNJ74NOBF3NJT2YZYRPQXQ" style="width: 100%;" alt="bioinformatics_lab.png">
+    
    <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-30-44.png?token=GHSAT0AAAAAACXY7ZKHKVRVCTXWTEMDWVO6ZYRPRPA" style="width: 100%;" alt="bioinformatics_lab.png">
    
 #### Step 3: Choose a Service
@@ -40,14 +43,17 @@ For running a program, you can choose from various AWS services. Let’s use Ama
 Navigate to EC2: In the AWS Management Console, go to the EC2 Dashboard.
 ```
  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-22.png?token=GHSAT0AAAAAACXY7ZKHBNADACPFDI4CMM5WZYRPGIQ" style="width: 100%;" alt="bioinformatics_lab.png">
+ 
 ```
 Launch Instance: Click on "Launch Instance."
 ```
  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-57-34.png?token=GHSAT0AAAAAACXY7ZKH3MSKJK2VJ75VXZTIZYRPH2Q" style="width: 100%;" alt="bioinformatics_lab.png">
+ 
 ```
 *** Choose an AMI ***: Select an Amazon Machine Image (AMI). For example, choose "Amazon Linux 2 AMI."
 ```
  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-58-13.png?token=GHSAT0AAAAAACXY7ZKGCEFGOF6JGVG3X3NSZYRPJCQ" style="width: 100%;" alt="bioinformatics_lab.png">
+ 
 ```
 Choose Instance Type: Select a free-tier eligible instance type, such as t2.micro.
 Configure Instance: Review the default settings and click "Next: Add Storage."
@@ -65,13 +71,16 @@ Create Key Pair: Create a new key pair or use an existing one. Download the key 
 Get Public DNS: In the EC2 Dashboard, find your instance and note its Public DNS.
 ```
  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-42-34.png?token=GHSAT0AAAAAACXY7ZKHTSFIFYSWVIFD3ZC4ZYRPBQA" style="width: 100%;" alt="bioinformatics_lab.png">
+ 
  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-01-53.png?token=GHSAT0AAAAAACXY7ZKGFT47GBFIEJKHHVAQZYRPKXA" style="width: 100%;" alt="bioinformatics_lab.png">
+ 
 ```
 SSH into Instance: Use a terminal or SSH client to connect to your instance. For example:
 
 ssh -i /path/to/your-key-pair.pem ec2-user@your-instance-public-dns
 ```
  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2000-56-31.png?token=GHSAT0AAAAAACXY7ZKGMNNNDKSR763H74XEZYRO2OA" style="width: 100%;" alt="bioinformatics_lab.png">
+ 
 ```
  For ubuntu use ubuntu unstead of ec2-user
  And uodate ubuntu before running any command
@@ -91,7 +100,7 @@ Run Your Program: SSH into the instance and run your program.
 
 python3 program.py
 ```
- <img src="" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-39-31.png?token=GHSAT0AAAAAACXY7ZKGB4HHCZMA2FQWTBXUZYRPV5Q" style="width: 100%;" alt="bioinformatics_lab.png">
 
 
 #### Step 7: Monitor and Manage Costs
