@@ -12,6 +12,8 @@ Verify Your Identity: You may need to verify your phone number and complete a CA
 Select Support Plan: Choose the Basic (Free) support plan.
 Confirm Account: Complete the sign-up process and confirm your account via email.
 ```
+  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2000-26-48.png?token=GHSAT0AAAAAACXY7ZKHRY4D7EO2VLUREJTGZYROYIA" style="width: 100%;" alt="bioinformatics_lab.png">
+  
 #### Step 2: Set Up Your AWS Environment
 ```
 Log In: Go to the AWS Management Console and log in with your credentials.
