@@ -25,6 +25,8 @@ IAM Setup: Create an IAM user with appropriate permissions for better security. 
 For running a program, you can choose from various AWS services. Let’s use Amazon EC2 (Elastic Compute Cloud) for this example.
 ```
 
+ <img src="" style="width: 100%;" alt="bioinformatics_lab.png">
+
 #### Step 4: Launch an EC2 Instance
 ```
 Navigate to EC2: In the AWS Management Console, go to the EC2 Dashboard.
@@ -38,6 +40,9 @@ Configure Security Group: Create a new security group or use an existing one. Ma
 Review and Launch: Review your settings and click "Launch."
 Create Key Pair: Create a new key pair or use an existing one. Download the key pair file (.pem).
 ```
+
+ <img src="" style="width: 100%;" alt="bioinformatics_lab.png">
+ 
 #### Step 5: Connect to Your EC2 Instance
 ```
 Get Public DNS: In the EC2 Dashboard, find your instance and note its Public DNS.
@@ -45,6 +50,8 @@ SSH into Instance: Use a terminal or SSH client to connect to your instance. For
 
 ssh -i /path/to/your-key-pair.pem ec2-user@your-instance-public-dns
 ```
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2000-56-31.png?token=GHSAT0AAAAAACXY7ZKGMNNNDKSR763H74XEZYRO2OA" style="width: 100%;" alt="bioinformatics_lab.png">
+ 
 #### Step 6: Run Your Program
 ```
 Upload Your Program: Use scp or another method to upload your program files to the EC2 instance.
@@ -54,6 +61,9 @@ Run Your Program: SSH into the instance and run your program.
 
 python3 program.py
 ```
+ <img src="" style="width: 100%;" alt="bioinformatics_lab.png">
+
+
 #### Step 7: Monitor and Manage Costs
 ```
 Free Tier Limits: Ensure you stay within the free tier limits. For EC2, the free tier includes 750 hours of t2.micro or t3.micro instance usage per month.
@@ -67,3 +77,5 @@ Free Tier: AWS offers a free tier that includes 750 hours of t2.micro or t3.micr
 Beyond Free Tier: If you exceed the free tier limits, you will be charged according to the standard pricing. You can find detailed pricing information on the AWS Pricing page.
 By following these steps, you can successfully run a program on AWS using a free account. Make sure to monitor your usage to stay within the free tier limits and avoid unexpected charges.
 ```
+
+ <img src="" style="width: 100%;" alt="bioinformatics_lab.png">
