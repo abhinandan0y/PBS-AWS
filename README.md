@@ -18,8 +18,7 @@ Confirm Account: Complete the sign-up process and confirm your account via email
 ```
 Log In: Go to the AWS Management Console and log in with your credentials.
 ```
-<img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-01.png?token=GHSAT0AAAAAACXY7ZKHTVVZZD7ZEUMYFHPKZYRPELA" style="width: 100%;" alt="bioinformatics_lab.png">
- <img src="" style="width: 100%;" alt="bioinformatics_lab.png">
+<img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-01.png?token=GHSAT0AAAAAACXY7ZKHF3NQWN7MQDIW54KGZYRP4TA" style="width: 100%;" alt="bioinformatics_lab.png">
  
 ```
 IAM Setup: Create an IAM user with appropriate permissions for better security. Go to the IAM service and create a new user with programmatic access.
