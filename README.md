@@ -17,9 +17,17 @@ Confirm Account: Complete the sign-up process and confirm your account via email
 #### Step 2: Set Up Your AWS Environment
 ```
 Log In: Go to the AWS Management Console and log in with your credentials.
+```
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-01.png?token=GHSAT0AAAAAACXY7ZKHTVVZZD7ZEUMYFHPKZYRPELA" style="width: 100%;" alt="bioinformatics_lab.png">
+ 
+```
 IAM Setup: Create an IAM user with appropriate permissions for better security. Go to the IAM service and create a new user with programmatic access.
 ```
-
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-16.png?token=GHSAT0AAAAAACXY7ZKGWN2MXFFY4IHOZBFOZYRPFSA" style="width: 100%;" alt="bioinformatics_lab.png">
+  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-29-53.png?token=GHSAT0AAAAAACXY7ZKHFHILYOEMDZGGTOL4ZYRPPUQ" style="width: 100%;" alt="bioinformatics_lab.png">
+    <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-30-16.png?token=GHSAT0AAAAAACXY7ZKGJBNJ74NOBF3NJT2YZYRPQXQ" style="width: 100%;" alt="bioinformatics_lab.png">
+   <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-30-44.png?token=GHSAT0AAAAAACXY7ZKHKVRVCTXWTEMDWVO6ZYRPRPA" style="width: 100%;" alt="bioinformatics_lab.png">
+   
 #### Step 3: Choose a Service
 ```
 For running a program, you can choose from various AWS services. Let’s use Amazon EC2 (Elastic Compute Cloud) for this example.
@@ -30,8 +38,17 @@ For running a program, you can choose from various AWS services. Let’s use Ama
 #### Step 4: Launch an EC2 Instance
 ```
 Navigate to EC2: In the AWS Management Console, go to the EC2 Dashboard.
+```
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-22.png?token=GHSAT0AAAAAACXY7ZKHBNADACPFDI4CMM5WZYRPGIQ" style="width: 100%;" alt="bioinformatics_lab.png">
+```
 Launch Instance: Click on "Launch Instance."
+```
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-57-34.png?token=GHSAT0AAAAAACXY7ZKH3MSKJK2VJ75VXZTIZYRPH2Q" style="width: 100%;" alt="bioinformatics_lab.png">
+```
 *** Choose an AMI ***: Select an Amazon Machine Image (AMI). For example, choose "Amazon Linux 2 AMI."
+```
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-58-13.png?token=GHSAT0AAAAAACXY7ZKGCEFGOF6JGVG3X3NSZYRPJCQ" style="width: 100%;" alt="bioinformatics_lab.png">
+```
 Choose Instance Type: Select a free-tier eligible instance type, such as t2.micro.
 Configure Instance: Review the default settings and click "Next: Add Storage."
 Add Storage: Use the default storage settings and click "Next: Add Tags."
@@ -41,16 +58,29 @@ Review and Launch: Review your settings and click "Launch."
 Create Key Pair: Create a new key pair or use an existing one. Download the key pair file (.pem).
 ```
 
- <img src="" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-59-59.png?token=GHSAT0AAAAAACXY7ZKHCYFKGZMMXHTV6NRUZYRPKBA" style="width: 100%;" alt="bioinformatics_lab.png">
  
 #### Step 5: Connect to Your EC2 Instance
 ```
 Get Public DNS: In the EC2 Dashboard, find your instance and note its Public DNS.
+```
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-42-34.png?token=GHSAT0AAAAAACXY7ZKHTSFIFYSWVIFD3ZC4ZYRPBQA" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-01-53.png?token=GHSAT0AAAAAACXY7ZKGFT47GBFIEJKHHVAQZYRPKXA" style="width: 100%;" alt="bioinformatics_lab.png">
+```
 SSH into Instance: Use a terminal or SSH client to connect to your instance. For example:
 
 ssh -i /path/to/your-key-pair.pem ec2-user@your-instance-public-dns
 ```
  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2000-56-31.png?token=GHSAT0AAAAAACXY7ZKGMNNNDKSR763H74XEZYRO2OA" style="width: 100%;" alt="bioinformatics_lab.png">
+```
+ For ubuntu use ubuntu unstead of ec2-user
+ And uodate ubuntu before running any command
+
+ ```
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-07-40.png?token=GHSAT0AAAAAACXY7ZKGKZ5A7VNIMXLLSUNKZYRPAKA" style="width: 100%;" alt="bioinformatics_lab.png">
+
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-07-12.png?token=GHSAT0AAAAAACXY7ZKGK7H2Y25VTQF6TNU2ZYRO6RA" style="width: 100%;" alt="bioinformatics_lab.png">
+ 
  
 #### Step 6: Run Your Program
 ```
@@ -72,10 +102,16 @@ Set Up Alerts: Set up billing alerts to notify you if your usage exceeds the fre
 Step 8: Clean Up Resources
 Terminate Instance: When you’re done, terminate your EC2 instance to avoid unnecessary charges.
 Delete Resources: Delete any other resources you created, such as security groups or key pairs.
+```
+
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-46-28.png?token=GHSAT0AAAAAACXY7ZKGSMHYNRET444UIY36ZYRPDLQ" style="width: 100%;" alt="bioinformatics_lab.png">
+
+```
 Pricing Information
 Free Tier: AWS offers a free tier that includes 750 hours of t2.micro or t3.micro instance usage per month for the first 12 months.
 Beyond Free Tier: If you exceed the free tier limits, you will be charged according to the standard pricing. You can find detailed pricing information on the AWS Pricing page.
 By following these steps, you can successfully run a program on AWS using a free account. Make sure to monitor your usage to stay within the free tier limits and avoid unexpected charges.
 ```
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-32.png?token=GHSAT0AAAAAACXY7ZKGOA77EBORSUQON3XSZYRPHEA" style="width: 100%;" alt="bioinformatics_lab.png">
 
- <img src="" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-37-00.png?token=GHSAT0AAAAAACXY7ZKHN3XOP7FAYHSLSXTCZYRPC3Q" style="width: 100%;" alt="bioinformatics_lab.png">
