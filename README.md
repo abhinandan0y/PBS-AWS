@@ -36,7 +36,7 @@ IAM Setup: Create an IAM user with appropriate permissions for better security. 
 For running a program, you can choose from various AWS services. Let’s use Amazon EC2 (Elastic Compute Cloud) for this example.
 ```
 
- <img src="" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-22.png?token=GHSAT0AAAAAACXY7ZKGPCFSBKJNSX5NUYRAZYRPXTQ" style="width: 100%;" alt="bioinformatics_lab.png">
 
 #### Step 4: Launch an EC2 Instance
 ```
