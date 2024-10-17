@@ -94,7 +94,7 @@ Run Your Program: SSH into the instance and run your program.
 
 python3 program.py
 ```
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-39-31.png?token=GHSAT0AAAAAACXY7ZKGB4HHCZMA2FQWTBXUZYRPV5Q" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/main/aws-ref/Screenshot%20from%202024-10-18%2002-39-31.png" style="width: 100%;" alt="bioinformatics_lab.png">
 
 
 #### Step 7: Monitor and Manage Costs
@@ -110,7 +110,7 @@ Terminate Instance: When you’re done, terminate your EC2 instance to avoid unn
 Delete Resources: Delete any other resources you created, such as security groups or key pairs.
 ```
 
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-46-28.png?token=GHSAT0AAAAAACXY7ZKGZNF7DT7HZOWCG5UAZYRQDSA" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/main/aws-ref/Screenshot%20from%202024-10-18%2001-46-28.png" style="width: 100%;" alt="bioinformatics_lab.png">
 
 ```
 Pricing Information
@@ -118,6 +118,6 @@ Free Tier: AWS offers a free tier that includes 750 hours of t2.micro or t3.micr
 Beyond Free Tier: If you exceed the free tier limits, you will be charged according to the standard pricing. You can find detailed pricing information on the AWS Pricing page.
 By following these steps, you can successfully run a program on AWS using a free account. Make sure to monitor your usage to stay within the free tier limits and avoid unexpected charges.
 ```
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-32.png?token=GHSAT0AAAAAACXY7ZKHF7SVDQFV5PJRKOVWZYRQEAA" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/main/aws-ref/Screenshot%20from%202024-10-18%2001-56-32.png" style="width: 100%;" alt="bioinformatics_lab.png">
 
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-37-00.png?token=GHSAT0AAAAAACXY7ZKHIFVNSI3WWH7DN6MAZYRQEPA" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/main/aws-ref/Screenshot%20from%202024-10-18%2001-37-00.png" style="width: 100%;" alt="bioinformatics_lab.png">
