@@ -23,13 +23,13 @@ Log In: Go to the AWS Management Console and log in with your credentials.
 ```
 IAM Setup: Create an IAM user with appropriate permissions for better security. Go to the IAM service and create a new user with programmatic access.
 ```
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-16.png?token=GHSAT0AAAAAACXY7ZKGWN2MXFFY4IHOZBFOZYRPFSA" style="width: 100%;" alt="bioinformatics_lab.png">
+<img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-16.png?token=GHSAT0AAAAAACXY7ZKGWN2MXFFY4IHOZBFOZYRPFSA" style="width: 100%;" alt="bioinformatics_lab.png">
  
-  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-29-53.png?token=GHSAT0AAAAAACXY7ZKHFHILYOEMDZGGTOL4ZYRPPUQ" style="width: 100%;" alt="bioinformatics_lab.png">
+<img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-29-53.png?token=GHSAT0AAAAAACXY7ZKHFHILYOEMDZGGTOL4ZYRPPUQ" style="width: 100%;" alt="bioinformatics_lab.png">
   
-  <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-30-16.png?token=GHSAT0AAAAAACXY7ZKGJBNJ74NOBF3NJT2YZYRPQXQ" style="width: 100%;" alt="bioinformatics_lab.png">
+<img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-30-16.png?token=GHSAT0AAAAAACXY7ZKGJBNJ74NOBF3NJT2YZYRPQXQ" style="width: 100%;" alt="bioinformatics_lab.png">
     
-   <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-30-44.png?token=GHSAT0AAAAAACXY7ZKHKVRVCTXWTEMDWVO6ZYRPRPA" style="width: 100%;" alt="bioinformatics_lab.png">
+<img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-30-44.png?token=GHSAT0AAAAAACXY7ZKHKVRVCTXWTEMDWVO6ZYRPRPA" style="width: 100%;" alt="bioinformatics_lab.png">
    
 #### Step 3: Choose a Service
 ```
