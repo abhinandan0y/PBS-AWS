@@ -70,25 +70,25 @@ Create Key Pair: Create a new key pair or use an existing one. Download the key 
 ```
 Get Public DNS: In the EC2 Dashboard, find your instance and note its Public DNS.
 ```
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-42-34.png?token=GHSAT0AAAAAACXY7ZKHTSFIFYSWVIFD3ZC4ZYRPBQA" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-42-34.png?token=GHSAT0AAAAAACXY7ZKHZWOSQL5NLMEDDGXYZYRQBNA" style="width: 100%;" alt="bioinformatics_lab.png">
  
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-01-53.png?token=GHSAT0AAAAAACXY7ZKGFT47GBFIEJKHHVAQZYRPKXA" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2002-01-53.png?token=GHSAT0AAAAAACXY7ZKHOXTILAM6EMUOOZZYZYRQBYQ" style="width: 100%;" alt="bioinformatics_lab.png">
  
 ```
 SSH into Instance: Use a terminal or SSH client to connect to your instance. For example:
 
 ssh -i /path/to/your-key-pair.pem ec2-user@your-instance-public-dns
 ```
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2000-56-31.png?token=GHSAT0AAAAAACXY7ZKGMNNNDKSR763H74XEZYRO2OA" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2000-56-31.png?token=GHSAT0AAAAAACXY7ZKHKPI5TNBRK5PDKSO2ZYRQCKA" style="width: 100%;" alt="bioinformatics_lab.png">
  
 ```
  For ubuntu use ubuntu unstead of ec2-user
  And uodate ubuntu before running any command
 
  ```
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-07-40.png?token=GHSAT0AAAAAACXY7ZKGKZ5A7VNIMXLLSUNKZYRPAKA" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-07-40.png?token=GHSAT0AAAAAACXY7ZKHZZGWU2DWUGAYPQR6ZYRQCYA" style="width: 100%;" alt="bioinformatics_lab.png">
 
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-07-12.png?token=GHSAT0AAAAAACXY7ZKGK7H2Y25VTQF6TNU2ZYRO6RA" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-07-12.png?token=GHSAT0AAAAAACXY7ZKHPXR5XVBFFDKBPHXIZYRQDEQ" style="width: 100%;" alt="bioinformatics_lab.png">
  
  
 #### Step 6: Run Your Program
@@ -113,7 +113,7 @@ Terminate Instance: When you’re done, terminate your EC2 instance to avoid unn
 Delete Resources: Delete any other resources you created, such as security groups or key pairs.
 ```
 
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-46-28.png?token=GHSAT0AAAAAACXY7ZKGSMHYNRET444UIY36ZYRPDLQ" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-46-28.png?token=GHSAT0AAAAAACXY7ZKGZNF7DT7HZOWCG5UAZYRQDSA" style="width: 100%;" alt="bioinformatics_lab.png">
 
 ```
 Pricing Information
@@ -121,6 +121,6 @@ Free Tier: AWS offers a free tier that includes 750 hours of t2.micro or t3.micr
 Beyond Free Tier: If you exceed the free tier limits, you will be charged according to the standard pricing. You can find detailed pricing information on the AWS Pricing page.
 By following these steps, you can successfully run a program on AWS using a free account. Make sure to monitor your usage to stay within the free tier limits and avoid unexpected charges.
 ```
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-32.png?token=GHSAT0AAAAAACXY7ZKGOA77EBORSUQON3XSZYRPHEA" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-32.png?token=GHSAT0AAAAAACXY7ZKHF7SVDQFV5PJRKOVWZYRQEAA" style="width: 100%;" alt="bioinformatics_lab.png">
 
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-37-00.png?token=GHSAT0AAAAAACXY7ZKHN3XOP7FAYHSLSXTCZYRPC3Q" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-37-00.png?token=GHSAT0AAAAAACXY7ZKHIFVNSI3WWH7DN6MAZYRQEPA" style="width: 100%;" alt="bioinformatics_lab.png">
