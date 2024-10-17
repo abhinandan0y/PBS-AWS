@@ -42,17 +42,17 @@ For running a program, you can choose from various AWS services. Let’s use Ama
 ```
 Navigate to EC2: In the AWS Management Console, go to the EC2 Dashboard.
 ```
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-22.png?token=GHSAT0AAAAAACXY7ZKHBNADACPFDI4CMM5WZYRPGIQ" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-56-22.png?token=GHSAT0AAAAAACXY7ZKHMGTGTCTHOVJVXFTMZYRP6WA" style="width: 100%;" alt="bioinformatics_lab.png">
  
 ```
 Launch Instance: Click on "Launch Instance."
 ```
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-57-34.png?token=GHSAT0AAAAAACXY7ZKH3MSKJK2VJ75VXZTIZYRPH2Q" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-57-34.png?token=GHSAT0AAAAAACXY7ZKG4ORRLA66KD7GEP2UZYRP7EQ" style="width: 100%;" alt="bioinformatics_lab.png">
  
 ```
 *** Choose an AMI ***: Select an Amazon Machine Image (AMI). For example, choose "Amazon Linux 2 AMI."
 ```
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-58-13.png?token=GHSAT0AAAAAACXY7ZKGCEFGOF6JGVG3X3NSZYRPJCQ" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-58-13.png?token=GHSAT0AAAAAACXY7ZKGJDF3LZIXOACOBIW2ZYRP72A" style="width: 100%;" alt="bioinformatics_lab.png">
  
 ```
 Choose Instance Type: Select a free-tier eligible instance type, such as t2.micro.
@@ -64,7 +64,7 @@ Review and Launch: Review your settings and click "Launch."
 Create Key Pair: Create a new key pair or use an existing one. Download the key pair file (.pem).
 ```
 
- <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-59-59.png?token=GHSAT0AAAAAACXY7ZKHCYFKGZMMXHTV6NRUZYRPKBA" style="width: 100%;" alt="bioinformatics_lab.png">
+ <img src="https://raw.githubusercontent.com/abhinandan0y/PBS-AWS/refs/heads/AWS-Example/aws-ref/Screenshot%20from%202024-10-18%2001-59-59.png?token=GHSAT0AAAAAACXY7ZKHNCBPQZHVDABAKQKMZYRQAKQ" style="width: 100%;" alt="bioinformatics_lab.png">
  
 #### Step 5: Connect to Your EC2 Instance
 ```
